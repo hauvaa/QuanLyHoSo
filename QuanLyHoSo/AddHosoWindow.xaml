@@ -1,0 +1,52 @@
+﻿<Window x:Class="QuanLyHoSo.AddHosoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thêm Hồ Sơ" Height="850" Width="350">
+	<Grid>
+		<StackPanel Margin="10">
+			<Label Content="Bảng Kê Đợt Gắn:"/>
+			<TextBox x:Name="txtBangKe" Margin="0,0,0,10"/>
+
+			<Label Content="Đợt Nhập:"/>
+			<TextBox x:Name="txtDotNhap" Margin="0,0,0,10"/>
+
+			<Label Content="DB Cũ:"/>
+			<TextBox x:Name="txtDBCu" Margin="0,0,0,10"/>
+
+			<Label Content="HĐ Cũ:"/>
+			<TextBox x:Name="txtHDCu" Margin="0,0,0,10"/>
+
+			<Label Content="DB Mới:"/>
+			<TextBox x:Name="txtDBMoi" Margin="0,0,0,10"/>
+
+			<Label Content="HĐ Mới:"/>
+			<TextBox x:Name="txtHDMoi" Margin="0,0,0,10"/>
+
+			<Label Content="Đợt:"/>
+			<TextBox x:Name="txtDot" Margin="0,0,0,10"/>
+
+			<Label Content="GB:"/>
+			<TextBox x:Name="txtGB" Margin="0,0,0,10"/>
+
+			<Label Content="Bù ĐM:"/>
+			<TextBox x:Name="txtBuDM" Margin="0,0,0,10"/>
+
+			<Label Content="Hiệu Lực:"/>
+			<TextBox x:Name="txtHieuLuc" Margin="0,0,0,10"/>
+
+			<Label Content="Mã Hợp Đồng:"/>
+			<TextBox x:Name="txtMaHopDong" Margin="0,0,0,10"/>
+
+			<Label Content="DS Lưu:"/>
+			<TextBox x:Name="txtDSLuu" Margin="0,0,0,10"/>
+
+			<Label Content="Ghi Chú:"/>
+			<TextBox x:Name="txtGhiChu" Margin="0,0,0,10"/>
+
+			<Label Content="Quận:"/>
+			<TextBox x:Name="txtQuan" Margin="0,0,0,10"/>
+
+			<Button Content="Lưu" Width="100" Click="SaveButton_Click"/>
+		</StackPanel>
+	</Grid>
+</Window>
